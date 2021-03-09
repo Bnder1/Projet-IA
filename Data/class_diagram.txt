@@ -1,0 +1,31 @@
+┌────────────────────────────────┐                ┌────────────────────────────────┐
+│                                │                │                                │
+│ Employee Survey                │                │ General Data                   │
+├────────────────────────────────┤                ├────────────────────────────────┤
+│                                │                │                                │
+│ + EmployeeID(int)              ├────────┐       │ + Age(int)                     │
+│ + EnvironmentSatisfaction(int) │        │       │ + Attrition(bool)              │
+│ + JobSatisfaction(int)         │        │       │ + BusinessTravel(enum)         │
+│ + WorkLifeBalance(int)         │        │       │ + Department(enum)             │
+│                                │        │       │ + DistanceFromHome(int)        │
+└────────────────────────────────┘        │       │ + Education(int)               │
+                                          │       │ + EducationField(enum)         │
+                                          │       │ + EmployeeCount(int)           │
+                                          ├───────┤ + EmployeeID(int)              │
+┌──────────────────────────┐              │       │ + Gender(enum)                 │
+│                          │              │       │ + JobLevel(int)                │
+│ Manager Survey           │              │       │ + JobRole(enum)                │
+├──────────────────────────┤              │       │ + MaritalStatus(enum)          │
+│                          │              │       │ + MonthlyIncome(int)           │
+│ + EmployeeID(int)        ├──────────────┘       │ + NumCompaniesWorked(int)      │
+│ + JobInvolvment(int)     │                      │ + Over18(bool)                 │
+│ + PerformanceRating(int) │                      │ + PercentSalaryHike(int)       │
+│                          │                      │ + StandardHours(int)           │
+└──────────────────────────┘                      │ + StockOptionLevel(int)        │
+                                                  │ + TotalWorkingYears(int)       │
+                                                  │ + TrainingTimesLastYear(int)   │
+                                                  │ + YearsAtCompany(int)          │
+                                                  │ + YearsSinceLastPromotion(int) │
+                                                  │ + YearsWithCurrManager(int)    │
+                                                  │                                │
+                                                  └────────────────────────────────┘

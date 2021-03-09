@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="680"
+   height="512"
+   version="1.1"
+   id="svg349"
+   sodipodi:docname="class_diagram.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="E:\Documents\CESI\Projet-IA\Data\class_diagram.png"
+   inkscape:export-xdpi="271.125"
+   inkscape:export-ydpi="271.125">
+  <metadata
+     id="metadata353">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview351"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="0.921875"
+     inkscape:cx="184.5264"
+     inkscape:cy="223.68399"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg349" />
+  <style
+     id="style2">line, path, circle,rect,polygon {
+                          stroke: black;
+                          stroke-width: 2;
+                          stroke-opacity: 1;
+                          fill-opacity: 1;
+                          stroke-linecap: round;
+                          stroke-linejoin: miter;
+                        }
+
+                    text {
+                        fill: black;
+                        }
+                        rect.backdrop{
+                            stroke: none;
+                            fill: white;
+                        }
+                        .broken{
+                            stroke-dasharray: 8;
+                        }
+                        .filled{
+                            fill: black;
+                        }
+                        .bg_filled{
+                            fill: white;
+                        }
+                        .nofill{
+                            fill: white;
+                        }
+
+                        text {
+                         font-family: monospace;
+                         font-size: 14px;
+                        }
+
+                        .end_marked_arrow{
+                            marker-end: url(#arrow);
+                         }
+                        .start_marked_arrow{
+                            marker-start: url(#arrow);
+                         }
+
+                        .end_marked_diamond{
+                            marker-end: url(#diamond);
+                         }
+                        .start_marked_diamond{
+                            marker-start: url(#diamond);
+                         }
+
+                        .end_marked_circle{
+                            marker-end: url(#circle);
+                         }
+                        .start_marked_circle{
+                            marker-start: url(#circle);
+                         }
+
+                        .end_marked_open_circle{
+                            marker-end: url(#open_circle);
+                         }
+                        .start_marked_open_circle{
+                            marker-start: url(#open_circle);
+                         }
+
+                        .end_marked_big_open_circle{
+                            marker-end: url(#big_open_circle);
+                         }
+                        .start_marked_big_open_circle{
+                            marker-start: url(#big_open_circle);
+                         }
+
+                         
+                        </style>
+  <defs
+     id="defs19">
+    <marker
+       id="arrow"
+       viewBox="-2 -2 8 8"
+       refX="4"
+       refY="2"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <polygon
+         points="0,0 0,4 4,2 0,0"
+         id="polygon4" />
+    </marker>
+    <marker
+       id="diamond"
+       viewBox="-2 -2 8 8"
+       refX="4"
+       refY="2"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <polygon
+         points="0,2 2,0 4,2 2,4 0,2"
+         id="polygon7" />
+    </marker>
+    <marker
+       id="circle"
+       viewBox="0 0 8 8"
+       refX="4"
+       refY="4"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <circle
+         cx="4"
+         cy="4"
+         r="2"
+         class="filled"
+         id="circle10" />
+    </marker>
+    <marker
+       id="open_circle"
+       viewBox="0 0 8 8"
+       refX="4"
+       refY="4"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <circle
+         cx="4"
+         cy="4"
+         r="2"
+         class="bg_filled"
+         id="circle13" />
+    </marker>
+    <marker
+       id="big_open_circle"
+       viewBox="0 0 8 8"
+       refX="4"
+       refY="4"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <circle
+         cx="4"
+         cy="4"
+         r="3"
+         class="bg_filled"
+         id="circle16" />
+    </marker>
+  </defs>
+  <rect
+     class="backdrop"
+     x="5.5609756"
+     y="18.408747"
+     width="680"
+     height="512"
+     id="rect21"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+  <text
+     x="18"
+     y="44"
+     id="text23">Employee</text>
+  <text
+     x="90"
+     y="44"
+     id="text25">Survey</text>
+  <text
+     x="418"
+     y="44"
+     id="text27">General</text>
+  <text
+     x="482"
+     y="44"
+     id="text29">Data</text>
+  <text
+     x="18"
+     y="268"
+     id="text31">Manager</text>
+  <text
+     x="82"
+     y="268"
+     id="text33">Survey</text>
+  <text
+     x="34"
+     y="92"
+     id="text37">EmployeeID</text>
+  <path
+     d="M 120,80 A 16,16 0,0,0 120,96"
+     class="nofill"
+     id="path39" />
+  <text
+     x="122"
+     y="92"
+     id="text41">int</text>
+  <path
+     d="M 144,80 A 16,16 0,0,1 144,96"
+     class="nofill"
+     id="path43" />
+  <text
+     x="34"
+     y="108"
+     id="text45">EnvironmentSatisfaction</text>
+  <path
+     d="M 224,96 A 16,16 0,0,0 224,112"
+     class="nofill"
+     id="path47" />
+  <text
+     x="226"
+     y="108"
+     id="text49">int</text>
+  <path
+     d="M 248,96 A 16,16 0,0,1 248,112"
+     class="nofill"
+     id="path51" />
+  <text
+     x="34"
+     y="124"
+     id="text53">JobSatisfaction</text>
+  <text
+     x="162"
+     y="124"
+     id="text55">int</text>
+  <text
+     x="34"
+     y="140"
+     id="text57">WorkLifeBalance</text>
+  <text
+     x="162"
+     y="140"
+     id="text59">int</text>
+  <text
+     x="434"
+     y="92"
+     id="text63">Age</text>
+  <path
+     d="M 464,80 A 16,16 0,0,0 464,96"
+     class="nofill"
+     id="path65" />
+  <text
+     x="466"
+     y="92"
+     id="text67">int</text>
+  <path
+     d="M 488,80 A 16,16 0,0,1 488,96"
+     class="nofill"
+     id="path69" />
+  <text
+     x="434"
+     y="108"
+     id="text71">Attrition</text>
+  <path
+     d="M 512,96 A 16,16 0,0,0 512,112"
+     class="nofill"
+     id="path73" />
+  <text
+     x="514"
+     y="108"
+     id="text75">bool</text>
+  <path
+     d="M 544,96 A 16,16 0,0,1 544,112"
+     class="nofill"
+     id="path77" />
+  <text
+     x="434"
+     y="124"
+     id="text79">BusinessTravel</text>
+  <text
+     x="554"
+     y="124"
+     id="text81">enum</text>
+  <path
+     d="M 584,112 A 16,16 0,0,1 584,128"
+     class="nofill"
+     id="path83" />
+  <text
+     x="434"
+     y="140"
+     id="text85">Department</text>
+  <path
+     d="M 520,128 A 16,16 0,0,0 520,144"
+     class="nofill"
+     id="path87" />
+  <text
+     x="522"
+     y="140"
+     id="text89">enum</text>
+  <text
+     x="434"
+     y="156"
+     id="text91">DistanceFromHome</text>
+  <path
+     d="M 568,144 A 16,16 0,0,0 568,160"
+     class="nofill"
+     id="path93" />
+  <text
+     x="570"
+     y="156"
+     id="text95">int</text>
+  <path
+     d="M 592,144 A 16,16 0,0,1 592,160"
+     class="nofill"
+     id="path97" />
+  <text
+     x="434"
+     y="172"
+     id="text99">Education</text>
+  <path
+     d="M 512,160 A 16,16 0,0,0 512,176"
+     class="nofill"
+     id="path101" />
+  <text
+     x="514"
+     y="172"
+     id="text103">int</text>
+  <path
+     d="M 536,160 A 16,16 0,0,1 536,176"
+     class="nofill"
+     id="path105" />
+  <text
+     x="434"
+     y="188"
+     id="text107">EducationField</text>
+  <path
+     d="M 552,176 A 16,16 0,0,0 552,192"
+     class="nofill"
+     id="path109" />
+  <text
+     x="554"
+     y="188"
+     id="text111">enum</text>
+  <path
+     d="M 584,176 A 16,16 0,0,1 584,192"
+     class="nofill"
+     id="path113" />
+  <text
+     x="434"
+     y="204"
+     id="text115">EmployeeCount</text>
+  <text
+     x="546"
+     y="204"
+     id="text117">int</text>
+  <path
+     d="M 568,192 A 16,16 0,0,1 568,208"
+     class="nofill"
+     id="path119" />
+  <text
+     x="434"
+     y="220"
+     id="text121">EmployeeID</text>
+  <text
+     x="522"
+     y="220"
+     id="text123">int</text>
+  <text
+     x="434"
+     y="236"
+     id="text125">Gender</text>
+  <path
+     d="M 488,224 A 16,16 0,0,0 488,240"
+     class="nofill"
+     id="path127" />
+  <text
+     x="490"
+     y="236"
+     id="text129">enum</text>
+  <text
+     x="434"
+     y="252"
+     id="text131">JobLevel</text>
+  <path
+     d="M 504,240 A 16,16 0,0,0 504,256"
+     class="nofill"
+     id="path133" />
+  <text
+     x="506"
+     y="252"
+     id="text135">int</text>
+  <text
+     x="434"
+     y="268"
+     id="text137">JobRole</text>
+  <path
+     d="M 496,256 A 16,16 0,0,0 496,272"
+     class="nofill"
+     id="path139" />
+  <text
+     x="498"
+     y="268"
+     id="text141">enum</text>
+  <text
+     x="434"
+     y="284"
+     id="text143">MaritalStatus</text>
+  <text
+     x="546"
+     y="284"
+     id="text145">enum</text>
+  <path
+     d="M 576,272 A 16,16 0,0,1 576,288"
+     class="nofill"
+     id="path147" />
+  <text
+     x="434"
+     y="300"
+     id="text149">MonthlyIncome</text>
+  <text
+     x="546"
+     y="300"
+     id="text151">int</text>
+  <path
+     d="M 568,288 A 16,16 0,0,1 568,304"
+     class="nofill"
+     id="path153" />
+  <text
+     x="434"
+     y="316"
+     id="text155">NumCompaniesWorked</text>
+  <path
+     d="M 584,304 A 16,16 0,0,0 584,320"
+     class="nofill"
+     id="path157" />
+  <text
+     x="586"
+     y="316"
+     id="text159">int</text>
+  <path
+     d="M 608,304 A 16,16 0,0,1 608,320"
+     class="nofill"
+     id="path161" />
+  <text
+     x="434"
+     y="332"
+     id="text163">Over18</text>
+  <path
+     d="M 488,320 A 16,16 0,0,0 488,336"
+     class="nofill"
+     id="path165" />
+  <text
+     x="490"
+     y="332"
+     id="text167">bool</text>
+  <path
+     d="M 520,320 A 16,16 0,0,1 520,336"
+     class="nofill"
+     id="path169" />
+  <text
+     x="434"
+     y="348"
+     id="text171">PercentSalaryHike</text>
+  <path
+     d="M 576,336 A 16,16 0,0,0 576,352"
+     class="nofill"
+     id="path173" />
+  <text
+     x="578"
+     y="348"
+     id="text175">int</text>
+  <path
+     d="M 600,336 A 16,16 0,0,1 600,352"
+     class="nofill"
+     id="path177" />
+  <text
+     x="434"
+     y="364"
+     id="text179">StandardHours</text>
+  <path
+     d="M 544,352 A 16,16 0,0,0 544,368"
+     class="nofill"
+     id="path181" />
+  <text
+     x="546"
+     y="364"
+     id="text183">int</text>
+  <text
+     x="434"
+     y="380"
+     id="text185">StockOptionLevel</text>
+  <text
+     x="570"
+     y="380"
+     id="text187">int</text>
+  <path
+     d="M 592,368 A 16,16 0,0,1 592,384"
+     class="nofill"
+     id="path189" />
+  <text
+     x="434"
+     y="396"
+     id="text191">TotalWorkingYears</text>
+  <path
+     d="M 576,384 A 16,16 0,0,0 576,400"
+     class="nofill"
+     id="path193" />
+  <text
+     x="578"
+     y="396"
+     id="text195">int</text>
+  <path
+     d="M 600,384 A 16,16 0,0,1 600,400"
+     class="nofill"
+     id="path197" />
+  <text
+     x="434"
+     y="412"
+     id="text199">TrainingTimesLastYear</text>
+  <path
+     d="M 608,400 A 16,16 0,0,0 608,416"
+     class="nofill"
+     id="path201" />
+  <text
+     x="610"
+     y="412"
+     id="text203">int</text>
+  <path
+     d="M 632,400 A 16,16 0,0,1 632,416"
+     class="nofill"
+     id="path205" />
+  <text
+     x="434"
+     y="428"
+     id="text207">YearsAtCompany</text>
+  <path
+     d="M 552,416 A 16,16 0,0,0 552,432"
+     class="nofill"
+     id="path209" />
+  <text
+     x="554"
+     y="428"
+     id="text211">int</text>
+  <path
+     d="M 576,416 A 16,16 0,0,1 576,432"
+     class="nofill"
+     id="path213" />
+  <text
+     x="434"
+     y="444"
+     id="text215">YearsSinceLastPromotion</text>
+  <text
+     x="626"
+     y="444"
+     id="text217">int</text>
+  <path
+     d="M 648,432 A 16,16 0,0,1 648,448"
+     class="nofill"
+     id="path219" />
+  <text
+     x="434"
+     y="460"
+     id="text221">YearsWithCurrManager</text>
+  <path
+     d="M 600,448 A 16,16 0,0,0 600,464"
+     class="nofill"
+     id="path223" />
+  <text
+     x="602"
+     y="460"
+     id="text225">int</text>
+  <text
+     x="34"
+     y="316"
+     id="text229">EmployeeID</text>
+  <path
+     d="M 120,304 A 16,16 0,0,0 120,320"
+     class="nofill"
+     id="path231" />
+  <text
+     x="122"
+     y="316"
+     id="text233">int</text>
+  <text
+     x="34"
+     y="332"
+     id="text235">JobInvolvment</text>
+  <text
+     x="146"
+     y="332"
+     id="text237">int</text>
+  <path
+     d="M 168,320 A 16,16 0,0,1 168,336"
+     class="nofill"
+     id="path239" />
+  <text
+     x="34"
+     y="348"
+     id="text241">PerformanceRating</text>
+  <path
+     d="M 176,336 A 16,16 0,0,0 176,352"
+     class="nofill"
+     id="path243" />
+  <text
+     x="178"
+     y="348"
+     id="text245">int</text>
+  <path
+     d="M 200,336 A 16,16 0,0,1 200,352"
+     class="nofill"
+     id="path247" />
+  <g
+     id="g287">
+    <line
+       x1="4"
+       y1="8"
+       x2="268"
+       y2="8"
+       class="solid"
+       id="line249" />
+    <line
+       x1="4"
+       y1="8"
+       x2="4"
+       y2="168"
+       class="solid"
+       id="line251" />
+    <line
+       x1="268"
+       y1="8"
+       x2="268"
+       y2="168"
+       class="solid"
+       id="line253" />
+    <line
+       x1="4"
+       y1="56"
+       x2="268"
+       y2="56"
+       class="solid"
+       id="line255" />
+    <line
+       x1="268"
+       y1="88"
+       x2="340"
+       y2="88"
+       class="solid"
+       id="line257" />
+    <line
+       x1="340"
+       y1="88"
+       x2="340"
+       y2="312"
+       class="solid"
+       id="line259" />
+    <line
+       x1="4"
+       y1="168"
+       x2="268"
+       y2="168"
+       class="solid"
+       id="line261" />
+    <line
+       x1="404"
+       y1="8"
+       x2="668"
+       y2="8"
+       class="solid"
+       id="line263" />
+    <line
+       x1="404"
+       y1="8"
+       x2="404"
+       y2="488"
+       class="solid"
+       id="line265" />
+    <line
+       x1="668"
+       y1="8"
+       x2="668"
+       y2="488"
+       class="solid"
+       id="line267" />
+    <line
+       x1="404"
+       y1="56"
+       x2="668"
+       y2="56"
+       class="solid"
+       id="line269" />
+    <line
+       x1="340"
+       y1="216"
+       x2="404"
+       y2="216"
+       class="solid"
+       id="line271" />
+    <line
+       x1="404"
+       y1="488"
+       x2="668"
+       y2="488"
+       class="solid"
+       id="line273" />
+    <line
+       x1="4"
+       y1="232"
+       x2="220"
+       y2="232"
+       class="solid"
+       id="line275" />
+    <line
+       x1="4"
+       y1="232"
+       x2="4"
+       y2="376"
+       class="solid"
+       id="line277" />
+    <line
+       x1="220"
+       y1="232"
+       x2="220"
+       y2="376"
+       class="solid"
+       id="line279" />
+    <line
+       x1="4"
+       y1="280"
+       x2="220"
+       y2="280"
+       class="solid"
+       id="line281" />
+    <line
+       x1="220"
+       y1="312"
+       x2="340"
+       y2="312"
+       class="solid"
+       id="line283" />
+    <line
+       x1="4"
+       y1="376"
+       x2="220"
+       y2="376"
+       class="solid"
+       id="line285" />
+  </g>
+  <g
+     id="g293">
+    <path
+       d="M 160,112 A 16,16 0,0,0 160,128"
+       class="nofill"
+       id="path289" />
+    <path
+       d="M 160,128 A 16,16 0,0,0 160,144"
+       class="nofill"
+       id="path291" />
+  </g>
+  <g
+     id="g299">
+    <path
+       d="M 184,112 A 16,16 0,0,1 184,128"
+       class="nofill"
+       id="path295" />
+    <path
+       d="M 184,128 A 16,16 0,0,1 184,144"
+       class="nofill"
+       id="path297" />
+  </g>
+  <g
+     id="g305">
+    <path
+       d="M 552,112 A 16,16 0,0,0 552,128"
+       class="nofill"
+       id="path301" />
+    <path
+       d="M 552,128 A 16,16 0,0,1 552,144"
+       class="nofill"
+       id="path303" />
+  </g>
+  <g
+     id="g311">
+    <path
+       d="M 544,192 A 16,16 0,0,0 544,208"
+       class="nofill"
+       id="path307" />
+    <path
+       d="M 544,208 A 16,16 0,0,1 544,224"
+       class="nofill"
+       id="path309" />
+  </g>
+  <g
+     id="g317">
+    <path
+       d="M 520,208 A 16,16 0,0,0 520,224"
+       class="nofill"
+       id="path313" />
+    <path
+       d="M 520,224 A 16,16 0,0,1 520,240"
+       class="nofill"
+       id="path315" />
+  </g>
+  <g
+     id="g323">
+    <path
+       d="M 528,240 A 16,16 0,0,1 528,256"
+       class="nofill"
+       id="path319" />
+    <path
+       d="M 528,256 A 16,16 0,0,1 528,272"
+       class="nofill"
+       id="path321" />
+  </g>
+  <g
+     id="g329">
+    <path
+       d="M 544,272 A 16,16 0,0,0 544,288"
+       class="nofill"
+       id="path325" />
+    <path
+       d="M 544,288 A 16,16 0,0,0 544,304"
+       class="nofill"
+       id="path327" />
+  </g>
+  <g
+     id="g335">
+    <path
+       d="M 568,352 A 16,16 0,0,1 568,368"
+       class="nofill"
+       id="path331" />
+    <path
+       d="M 568,368 A 16,16 0,0,0 568,384"
+       class="nofill"
+       id="path333" />
+  </g>
+  <g
+     id="g341">
+    <path
+       d="M 624,432 A 16,16 0,0,0 624,448"
+       class="nofill"
+       id="path337" />
+    <path
+       d="M 624,448 A 16,16 0,0,1 624,464"
+       class="nofill"
+       id="path339" />
+  </g>
+  <g
+     id="g347">
+    <path
+       d="M 144,304 A 16,16 0,0,1 144,320"
+       class="nofill"
+       id="path343" />
+    <path
+       d="M 144,320 A 16,16 0,0,0 144,336"
+       class="nofill"
+       id="path345" />
+  </g>
+  <text
+     x="19.604748"
+     y="107.80236"
+     id="text37-2"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="19.604748"
+     y="92.078224"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938">+</text>
+  <text
+     x="19.57728"
+     y="138.80464"
+     id="text37-2-6"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="19.57728"
+     y="123.08051"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1">+</text>
+  <text
+     x="19.663723"
+     y="331.85425"
+     id="text37-2-3"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="19.663723"
+     y="316.13013"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-8">+</text>
+  <text
+     x="19.629824"
+     y="348.12778"
+     id="text37-2-3-1"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.72137"
+     y="108.53816"
+     id="text37-2-5"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.72137"
+     y="92.814026"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-6">+</text>
+  <text
+     x="416.69391"
+     y="139.54044"
+     id="text37-2-6-1"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.69391"
+     y="123.81631"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1-7">+</text>
+  <text
+     x="416.6944"
+     y="171.26837"
+     id="text37-2-5-8"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.6944"
+     y="155.54424"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-6-1">+</text>
+  <text
+     x="416.66693"
+     y="202.27065"
+     id="text37-2-6-1-4"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.66693"
+     y="186.54652"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1-7-0">+</text>
+  <text
+     x="416.6109"
+     y="236.17516"
+     id="text37-2-5-0"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.6109"
+     y="220.45102"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-6-2">+</text>
+  <text
+     x="416.58344"
+     y="267.17743"
+     id="text37-2-6-1-45"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.58344"
+     y="251.45329"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1-7-8">+</text>
+  <text
+     x="416.58392"
+     y="298.90536"
+     id="text37-2-5-8-9"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.58392"
+     y="283.18121"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-6-1-4">+</text>
+  <text
+     x="416.55646"
+     y="329.90762"
+     id="text37-2-6-1-4-0"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.55646"
+     y="314.1835"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1-7-0-6">+</text>
+  <text
+     x="416.60919"
+     y="363.82864"
+     id="text37-2-5-0-7"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.60919"
+     y="348.10449"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-6-2-6">+</text>
+  <text
+     x="416.58173"
+     y="394.8309"
+     id="text37-2-6-1-45-1"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.58173"
+     y="379.10678"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1-7-8-7">+</text>
+  <text
+     x="416.58221"
+     y="426.55884"
+     id="text37-2-5-8-9-4"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.58221"
+     y="410.83469"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-6-1-4-3">+</text>
+  <text
+     x="416.55475"
+     y="457.5611"
+     id="text37-2-6-1-4-0-8"
+     style="font-size:14px;font-family:monospace;fill:#000000">+</text>
+  <text
+     x="416.55475"
+     y="441.83698"
+     style="font-size:14px;font-family:monospace;fill:#000000"
+     id="text4938-1-7-0-6-6">+</text>
+</svg>
