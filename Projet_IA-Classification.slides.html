@@ -14654,7 +14654,7 @@ require(
             controls: true,
             progress: true,
             history: true,
-            transition: "slide",
+            transition: "none",
         });
 
         var update = function(event){
@@ -14666,7 +14666,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = false
+            var scroll = true
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')
