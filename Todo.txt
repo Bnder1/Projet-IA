@@ -1,0 +1,4 @@
+- Explication des notebook techniques
+
+- Interpreté les résultats et proposé des solutions d'amélioration
+- Creation d'un nouveau jeu de donnée avec des valeurs différentes pour tester les predictions
