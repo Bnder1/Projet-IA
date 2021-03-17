@@ -14385,6 +14385,18 @@ div.jp-OutputPrompt {
 <div class="slides"><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Projet-IA">Projet IA<a class="anchor-link" href="#Projet-IA">&#182;</a></h1><p><img src="images/ML.png" alt="ML"></p>
+<h2 id="Equipe-:">Equipe :<a class="anchor-link" href="#Equipe-:">&#182;</a></h2><ul>
+<li>Guillaume Woreth</li>
+<li>Rémi Papin</li>
+<li>Fabien Richard</li>
+<li>Zacharia Azzouzi</li>
+</ul>
+
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Projet-IA-DataWrangling">Projet IA-DataWrangling<a class="anchor-link" href="#Projet-IA-DataWrangling">&#182;</a></h1><h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>L'entreprise de produits pharmaceutiques HumanForYou basée en Inde emploie environ 4000 personnes. Cependant, chaque année elle subit un turn-over d'environ 15% de ses employés nécessitant de retrouver des profils similaires sur le marché de l'emploi.</p>
 <p>La direction trouve que ce niveau de turn-over n'est pas bon pour l'entreprise car :</p>
 <ul>
@@ -14396,12 +14408,7 @@ div.jp-OutputPrompt {
 </li>
 </ul>
 <p><strong><em>Spécialistes de l'analyse de données, nous allons déterminer les facteurs ayant le plus d'influence sur ce taux de turn-over et proposer des modèles afin d'avoir des pistes d'amélioration pour donner à leurs employés l'envie de rester.</em></strong></p>
-<h2 id="Cr&#233;ation-des-chemins-d'environnements-et-analyse-de-donn&#233;es">Cr&#233;ation des chemins d'environnements et analyse de donn&#233;es<a class="anchor-link" href="#Cr&#233;ation-des-chemins-d'environnements-et-analyse-de-donn&#233;es">&#182;</a></h2>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Gestion-Execution-et-images">Gestion Execution et images<a class="anchor-link" href="#Gestion-Execution-et-images">&#182;</a></h3>
+<h2 id="Cr&#233;ation-des-chemins-d'environnements-et-analyse-de-donn&#233;es">Cr&#233;ation des chemins d'environnements et analyse de donn&#233;es<a class="anchor-link" href="#Cr&#233;ation-des-chemins-d'environnements-et-analyse-de-donn&#233;es">&#182;</a></h2><h3 id="Gestion-Execution-et-images">Gestion Execution et images<a class="anchor-link" href="#Gestion-Execution-et-images">&#182;</a></h3>
 </div>
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
@@ -16340,7 +16347,7 @@ require(
             controls: true,
             progress: true,
             history: true,
-            transition: "slide",
+            transition: "none",
         });
 
         var update = function(event){
@@ -16352,7 +16359,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = false
+            var scroll = true
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')
