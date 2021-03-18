@@ -14385,17 +14385,7 @@ div.jp-OutputPrompt {
 <div class="slides"><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="images/google.png" width="30%"></p>
-<h2 id="Objectif">Objectif<a class="anchor-link" href="#Objectif">&#182;</a></h2><ul>
-<li>Utiliser une instance cloud pour utiliser des modèles et machines plus puissantes.</li>
-<li>Comparer nos algorithmes.</li>
-</ul>
-
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="AUC-de-la-courbe-de-pre&#769;cision/rappel">AUC de la courbe de pre&#769;cision/rappel<a class="anchor-link" href="#AUC-de-la-courbe-de-pre&#769;cision/rappel">&#182;</a></h2>
+<h1 id="AUC-de-la-courbe-de-pre&#769;cision/rappel">AUC de la courbe de pre&#769;cision/rappel<a class="anchor-link" href="#AUC-de-la-courbe-de-pre&#769;cision/rappel">&#182;</a></h1>
 </div>
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14443,39 +14433,6 @@ div.jp-OutputPrompt {
 <p><img src="images/AUCROC/AUCROCImp.png" alt="AUC ROC"></p>
 
 </div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><h2 id="Solution-au-probl&#232;me">Solution au probl&#232;me<a class="anchor-link" href="#Solution-au-probl&#232;me">&#182;</a></h2><ul>
-<li>Grace à l'analyse des attributs :<ul>
-<li>MeanworkTime doit être réduit à 30%</li>
-<li>Ameliorer la satisfaction (Google) -&gt; Séminaire / Team Building</li>
-<li>Proposer plus de possibilité d'évolution</li>
-</ul>
-</li>
-</ul>
-<h2 id="Retour-sur-les-hypoth&#232;se">Retour sur les hypoth&#232;se<a class="anchor-link" href="#Retour-sur-les-hypoth&#232;se">&#182;</a></h2><blockquote><p>Hypothèses :</p>
-<ul>
-<li>Les facteurs que nous supposons pouvant influer sur le modèle sont :<ul>
-<li>"JobSatisfaction"<ul>
-<li>"JobEnvironnement"</li>
-<li>"WorklifeBalance"</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Dans l'ensemble des paramètre qui joue sur le bien être des employés.</li>
-<li>Les données des enquêtes de satisfaction ne sont pas pertinentes (Un ensemble de bonne note en moyenne).</li>
-<li>Les 2 paramètres ayant le plus d'influence sont l'age et "MonthlyIncome" (Avis non objectif).</li>
-</ul>
-</blockquote>
-
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Merci-pour-votre-Attention">Merci pour votre Attention<a class="anchor-link" href="#Merci-pour-votre-Attention">&#182;</a></h1>
-</div>
 </div></section></section>
 </div>
 </div>
@@ -14499,7 +14456,7 @@ require(
             controls: true,
             progress: true,
             history: true,
-            transition: "none",
+            transition: "slide",
         });
 
         var update = function(event){
@@ -14511,7 +14468,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = true
+            var scroll = false
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')
