@@ -14446,7 +14446,53 @@ div.jp-OutputPrompt {
 </div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><h2 id="Solution-au-probl&#232;me">Solution au probl&#232;me<a class="anchor-link" href="#Solution-au-probl&#232;me">&#182;</a></h2><ul>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><table>
+<thead><tr>
+<th>MODEL</th>
+<th style="text-align:center">Mean squared Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regression Linéaire</td>
+<td style="text-align:center">0,3437</td>
+</tr>
+<tr>
+<td>Regression Logistique</td>
+<td style="text-align:center">0,3812</td>
+</tr>
+<tr>
+<td>Arbre de décision</td>
+<td style="text-align:center">0,4532</td>
+</tr>
+<tr>
+<td>Foret Aléatoire</td>
+<td style="text-align:center"><strong>0,17</strong></td>
+</tr>
+<tr>
+<td>SVR</td>
+<td style="text-align:center">0,3728</td>
+</tr>
+<tr>
+<td>GOOGLE : AUC de la courbe de précision/rappel</td>
+<td style="text-align:center">0,00</td>
+</tr>
+<tr>
+<td>GOOGLE : Perte logistique</td>
+<td style="text-align:center">0,007</td>
+</tr>
+<tr>
+<td>GOOGLE : AUC ROC</td>
+<td style="text-align:center">0,032</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div></section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Solution-au-probl&#232;me">Solution au probl&#232;me<a class="anchor-link" href="#Solution-au-probl&#232;me">&#182;</a></h2><ul>
 <li>Grace à l'analyse des attributs :<ul>
 <li>MeanworkTime doit être réduit à 30%</li>
 <li>Ameliorer la satisfaction (Google) -&gt; Séminaire / Team Building</li>
@@ -14457,11 +14503,9 @@ div.jp-OutputPrompt {
 <h2 id="Retour-sur-les-hypoth&#232;se">Retour sur les hypoth&#232;se<a class="anchor-link" href="#Retour-sur-les-hypoth&#232;se">&#182;</a></h2><blockquote><p>Hypothèses :</p>
 <ul>
 <li>Les facteurs que nous supposons pouvant influer sur le modèle sont :<ul>
-<li>"JobSatisfaction"<ul>
+<li>"JobSatisfaction"</li>
 <li>"JobEnvironnement"</li>
 <li>"WorklifeBalance"</li>
-</ul>
-</li>
 </ul>
 </li>
 <li>Dans l'ensemble des paramètre qui joue sur le bien être des employés.</li>
